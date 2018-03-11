@@ -1,0 +1,32 @@
+{
+  "name": "av/helloworld",
+  "description": "Magento 2 Test Module - Hello world page controller & template",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Adam Varga",
+      "homepage": "https://github.com/adamvarga/AV_Hellworld"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packages.magento.com/"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0",
+    "magento/magento-composer-installer": "*",
+    "magento/framework": "~100.0.0"
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "AV/Helloworld"
+      ]
+    ]
+  },
+  "minimum-stability": "beta"
+}
